@@ -1,0 +1,90 @@
+.ai-tts-settings .nav-tab-wrapper {
+    padding-top: 15px;
+    border-bottom: none;
+}
+.ai-tts-settings .nav-tab {
+    margin-right: 10px;
+}
+.ai-tts-settings .nav-tab.nav-tab-active {
+    background-color: #f5f5f5;
+    border-color: #ccc #ccc #f5f5f5;
+    color: #333;
+    font-weight: bold;
+}
+.ai-tts-settings .tab-panel {
+    display: none;
+    padding-top: 10px;
+}
+.ai-tts-settings .tab-panel.active {
+    display: block;
+}
+
+.ai-tts-settings .form-table td {
+    padding: 20px;
+}
+.ai-tts-settings #custom-fields .form-table td {
+    padding: 0px 10px 0px 0px;
+}
+.ai-tts-settings .tax-exemption-custom-fields-table-labels {
+    font-weight: bold;
+}
+
+.ai-tts-settings {
+    padding: 12px;
+    width: calc(100% - 480px);
+    float: left;
+}
+
+.ai-tts-settings #submit {
+    font-size: 14px;
+    padding: 5px 20px;
+}
+
+@media (max-width: 1182px) {
+    .ai-tts-settings {
+        width: calc(100% - 10px); float: none;
+    }
+}
+.ai-tts-settings-sidebar {
+    width: 380px; float: right; margin: 20px;
+}
+@media (max-width: 1182px) {
+    .ai-tts-settings-sidebar {
+        width: calc(100% - 10px); float: none; margin: 0;
+    }
+}
+.ai-tts-settings-sidebar-box {
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #e0e0e0;
+}
+@media (max-width: 782px) {
+    .ai-tts-settings-sidebar-box {
+        padding: 10px; background-color: #fff; border: 1px solid #ddd;
+    }
+}
+
+.tax-exemption-certificate-enabled td, .tax-exemption-approval-enabled td, .tax-exemption-approval-message td {
+    padding-left: 40px;
+}
+
+.ai-tts-settings i {
+    color: #738e99;
+}
+
+.ai-tts-settings input[type="checkbox"] {
+    margin-right: 5px;
+    transform: scale(1.25);
+}
+
+textarea,
+select,
+input[type="text"] {
+    width: 250px;
+    padding: 5px 10px;
+}
+select {
+    height: 40px;
+}
